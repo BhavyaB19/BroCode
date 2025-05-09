@@ -1,0 +1,51 @@
+.card {
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 20px;  
+    margin: 10px;
+    text-align: center; 
+    display: inline-block;
+    max-width: 450px;
+    height: 270px;
+}
+.card img {
+    width: 57%;
+    height: auto;
+    border-radius: 50%;
+}
+.button {
+    color: white;
+    background-color: #007BFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.student-card {
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid #007BFF;
+}
+.student-card p {
+    margin: 0;
+    line-height: 1.5;
+}
+.Welcome-msg {
+    font-size: 2.5em;
+    background: hsl(120,100%,42%);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0;
+    display: inline-block;
+}
+.Login-prompt {
+    font-size: 2.5em;
+    background: hsl(9, 100%, 42%);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0;
+    display: inline-block;
+}

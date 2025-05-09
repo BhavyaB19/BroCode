@@ -1,0 +1,18 @@
+Styling can also be done by creating a seperate folder for each component 
+and saving a css file only for it there.
+And for this we write import styles from that css file. This is written in the jsx file
+
+For inline styling in jsx file:
+    the properties must be written in camelcase
+    the values must be a string
+    the properties must be comma seperated
+
+Props - Read only properties that are shared between components.
+        A parent component can send data to a child component. 
+propTypes - A mechanism that ensures that the passed value is of the correct datatype
+For eg-  age: propTypes.number 
+defaultProps- Default values for props incase they are not passed from the parent component
+For eg- name: "Guest"
+
+Conditional Rendering - Allows you to control what gets rendered in your application based on certain conditions
+(show, hide or change components)
